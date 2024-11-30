@@ -81,7 +81,7 @@ span.psw {
 function ValidateEmail(emailId)
 {
 	var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-	if(emailId.value.match(mailformat))
+	if(emailID.value.match(mailformat))
 	{
 		return true;
 	}
@@ -96,10 +96,10 @@ function ValidateEmail(emailId)
 </head>
 
 <body>
-	<form action="registerServlet" method="post">
+	<form action="registerServlet" method="post" >
 <div class="container">
-	<label for="username"><b>Email</b></label>
-	<input type="text" placeholder="Please enter your email" name="yourEmailID" id = "yourEmailID" required>
+	<label for="username"><b>Email</b></label><br>
+	<input type="text" placeholder="Please enter your email" name="yourEmailID" id = "yourEmailID" required><br>
 	<label for="user"><b>User Name</b></label>
 	<input type="text" placeholder="Please enter your username" name="userName" id = "userName" required>
 
