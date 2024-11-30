@@ -95,7 +95,7 @@ function ValidateEmail(emailId)
 </head>
 
 <body>
-	<form action="registerServlet" method="post" onclick="ValidateEmail(document.getElementById('yourEmailID'))">
+	<form action="registerServlet" method="post">
 <div class="container">
 	<label for="username"><b>Email</b></label>
 	<input type="text" placeholder="Please enter your email" name="yourEmailID" id = "yourEmailID" required>
